@@ -1,0 +1,21 @@
+IMHOOF GROUP — SITIO COMPLETO ACTUALIZADO
+
+Este ZIP contiene el sitio completo, no fragmentos:
+- index.html
+- styles.css
+- script.js
+- imagenes/revear-impronta.jpg
+- imagenes/parex-decoflex.jpg
+
+Para publicarlo: reemplazá los tres archivos de código en la raíz del repositorio y copiá las dos imágenes nuevas dentro de la carpeta `imagenes` existente. Conservá las tres imágenes anteriores de renovaciones dentro de esa carpeta: el script sigue apuntando a esos nombres.
+
+Cambios:
+- En “Pinturas y revestimientos” aparecen los dos productos enviados.
+- Cada producto tiene su tarjeta individual con imagen y nombre limitado a dos líneas.
+- La imagen tiene un degradé radial negro más opaco en los bordes y transparente hacia el centro.
+- Al seleccionar una tarjeta se abre la segunda ventana, con descripción, cantidad (+ / −) y enlace a WhatsApp.
+- El texto se actualiza con la cantidad seleccionada.
+- Se mantiene el menú hamburguesa, el resto de secciones, los menús emergentes y las galerías existentes.
+
+Número de WhatsApp conservado del sitio original: +54 9 341 384-6242.
+El enlace abre WhatsApp con el mensaje escrito; el cliente debe pulsar Enviar.
