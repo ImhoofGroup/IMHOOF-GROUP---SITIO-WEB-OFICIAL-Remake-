@@ -3,9 +3,9 @@ const mainNav = document.getElementById("mainNav");
 function closeMenu(){mainNav.classList.remove("open");menuToggle.setAttribute("aria-expanded","false");menuToggle.setAttribute("aria-label","Abrir menú");}
 menuToggle.addEventListener("click",()=>{const isOpen=mainNav.classList.toggle("open");menuToggle.setAttribute("aria-expanded",String(isOpen));menuToggle.setAttribute("aria-label",isOpen?"Cerrar menú":"Abrir menú");});
 mainNav.querySelectorAll("a").forEach(link=>link.addEventListener("click",closeMenu));
-document.querySelectorAll("[data-message]").forEach(link=>link.addEventListener("click",()=>{link.href=`https://wa.me/543413846242?text=${encodeURIComponent(link.dataset.message)}`;link.target="_blank";link.rel="noopener";}));
+document.querySelectorAll("[data-message]").forEach(link=>link.addEventListener("click",()=>{link.href=`https://wa.me/543415104652?text=${encodeURIComponent(link.dataset.message)}`;link.target="_blank";link.rel="noopener";}));
 
-const catalogModal=document.getElementById("catalogModal"),catalogTitle=document.getElementById("catalogTitle"),catalogItems=document.getElementById("catalogItems"),WHATSAPP_NUMBER="543413846242";
+const catalogModal=document.getElementById("catalogModal"),catalogTitle=document.getElementById("catalogTitle"),catalogItems=document.getElementById("catalogItems"),WHATSAPP_NUMBER="543415104652";
 const catalogData={
  "Soluciones para techos":[
   {name:"Impermeabilizantes",placeholder:true},{name:"Membranas líquidas",placeholder:true},{name:"Soluciones para filtraciones",placeholder:true}
